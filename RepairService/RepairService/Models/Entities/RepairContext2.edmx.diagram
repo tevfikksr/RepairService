@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="db3562b6a65d4590ae27a224778eab1f" Name="Diagram1">
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.CustomerDetails" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.Customers" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.DeviceDetails" Width="1.5" PointX="6" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.Devices" Width="1.5" PointX="3.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.FaultTypes" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.RepairStatuses" Width="1.5" PointX="3.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.Roles" Width="1.5" PointX="1.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.UserDetails" Width="1.5" PointX="6" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TK_RepairDatabase_2022_DbModel.Users" Width="1.5" PointX="3.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_CustomerDetails_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_DeviceDetails_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_DeviceDetails_Devices" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_DeviceDetails_RepairStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_DeviceDetails_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FK_UserDetails_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TK_RepairDatabase_2022_DbModel.FaultToDevice" ManuallyRouted="false" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
